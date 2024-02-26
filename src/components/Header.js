@@ -6,25 +6,25 @@ import rioFlag from '../assets/rio-flag.jpeg'
 import londonFlag from '../assets/london-flag.png'
 
 const Header = () => {
-    return (
-        <HeaderWrap>
-            <LayerBottom>
-                <ContentWrap>
-                    <BottomContent>
-                        <FlagImg src={rioFlag} alt="rio" />
-                    </BottomContent>
-                </ContentWrap>
-            </LayerBottom>
-            <LayerTop>
-                <TopContentWrap>
-                    <TopContent>
-                        <FlagImg src={londonFlag} alt="london" />
-                    </TopContent>
-                </TopContentWrap>
-            </LayerTop>
-            <Versus>VS</Versus>
-        </HeaderWrap>
-    )
+  return (
+    <HeaderWrap>
+      <LayerBottom>
+        <ContentWrap>
+          <BottomContent>
+            <FlagImg src={rioFlag} alt="rio" />
+          </BottomContent>
+        </ContentWrap>
+      </LayerBottom>
+      <LayerTop>
+        <TopContentWrap>
+          <TopContent>
+            <FlagImg src={londonFlag} alt="london" />
+          </TopContent>
+        </TopContentWrap>
+      </LayerTop>
+      <Versus>VS</Versus>
+    </HeaderWrap>
+  )
 }
 
 const HeaderWrap = styled.div`
